@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Register Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="img/fav-icon.svg">
+
+
+    </head>
+    <body>
+        <section id="registerform">
+            <h1>Register yourself now</h1>
+
+            <!--inputs-->
+            <form id="sections">
+              <div class="form-control">
+                <label for="firstname">First name:</label><br>
+                <input class="underline" type="text" id="firstname" name="firstname"><br>
+                <small>Correct answer required</small><br>
+              </div>
+
+              <div class="form-control">
+                <label for="lastname">Last name:</label><br>
+                <input class="underline" type="text" id="lastname" name="lastname"><br>
+                <small>Correct answer required</small><br>
+                </div>
+
+
+              <div class="form-control">
+                <label for="email">Email adress:</label><br>
+                <input class="underline" type="email" id="email" name="email"><br>
+                <small>Correct answer required</small><br>
+                </div>
+
+              <div class="form-control">
+                <label class="form-control" for="mobile">Mobile number:</label><br>
+                <input class="underline" type="number" id="mobile" name="mobile"><br>
+                <small>Correct answer required</small><br>
+                </div>
+
+              <div class="form-control">
+                <label for="pwd">Create password:</label><br>
+                <input class="underline" type="password" id="password" name="password"><br>
+                <small>Correct answer required</small><br>
+                </div>
+
+              <div class="form-control">
+                <label for="pwdr">Repeat password:</label><br>
+                <input class="underline" type="password" id="pwdr" name="pwdr"><br>
+                <small>Correct answer required</small><br>
+                </div>
+
+                <!-- Selection -->
+                <p>Choose your gender:</p>
+              <div class="form-control">
+                <input type="radio" id="male" name="gender" value="male">
+                <label class="selection" for="male">male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label class="selection" for="female">female</label>
+
+                <input type="radio" id="diverse" name="gender" value="diverse">
+                <label class="selection" for="diverse">diverse</label>
+
+                <input type="radio" id="no" name="gender" value="no" checked>
+                <label class="selection" for="no">prefer not to say</label>
+                <small>Correct answer required</small><br>
+                </div>
+
+                <!-- Submit Button -->
+                <button id="submit-btn">Submit</button>
+            </form>
+            <script src="js/validate-inputs.js"></script>
+    </body>
+<footer>
+    <p class="info">In case you have any questions:</p>
+    <a href="mailto:janka@fam-zehnder.ch">eMail address</a>
+    <p class="info">Haldenweg 25, 8412, Aesch (Neftenbach), Schweiz</p>
+</footer>
+</html>
